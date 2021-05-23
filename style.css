@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+  
+
+}
+/* body{
+    background-color: black;
+} */
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Va\(Water\).png);
+    /* background-image: url(./Va\(White\).png); */
+    /* background:color linear-gradient(blue,white) */
+    /* background-color:lightblue; */
+    background-position: center;
+    background-size: cover;
+    padding-right: 5%;
+    /* background: linear-gradient(grey,white); */
+}
+.nav-bar
+{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+nav
+{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#333;
+}
+.content h1
+{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 290px;
+    margin-bottom: 15px;
+    color:rgba(240, 230, 140, 0.39);
+
+
+
+}
+.content p
+{
+   color: whitesmoke
+}
+
+.content
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content .btn
+{
+    display: inline-block;
+    background:transparent !important;
+    border: 2px solid;
+    border-radius: 9px;
+    padding: 10px 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    box-shadow: 5px 8px 9px rgba(255, 7, 243, 0.219);
+}
+.social-media
+{
+    transform:rotate(-90deg);
+    position: absolute;
+    right: 5px;
+    bottom: 180px;
+
+
+
+}
+.social-media a
+{
+    text-decoration: none;
+    color:greenyellow;
+    right: 5px;
+    font-size: 14px;
+
+}
+.glogo
+{
+    position: absolute;
+   right: 5px;
+}
+
